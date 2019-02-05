@@ -61,27 +61,19 @@
           "targets": [
             {
               "refId": "B",
-              "target": "alias(movingAverage(Frankfurt_C02_EMISSION, '5min'), 'Frankfurt')"
+              "target": "alias(movingAverage(St_Louis_C02_EMISSION, '5min'), 'St. Louis')"
             },
             {
               "refId": "E",
-              "target": "alias(movingAverage(London_C02_EMISSION, '5min'), 'London')"
+              "target": "alias(movingAverage(Bismarck_C02_EMISSION, '5min'), 'Bismarck')"
             },
             {
               "refId": "F",
-              "target": "alias(movingAverage(Paris_C02_EMISSION, '5min'), 'Paris')"
+              "target": "alias(movingAverage(Knoxville_C02_EMISSION, '5min'), 'Knoxville')"
             },
             {
               "refId": "A",
-              "target": "alias(movingAverage(Tokyo_C02_EMISSION, '5min'), 'Tokyo')"
-            },
-            {
-              "refId": "C",
-              "target": "alias(movingAverage(Atlanta_C02_EMISSION, '5min'), 'Atlanta')"
-            },
-            {
-              "refId": "D",
-              "target": "alias(movingAverage(New_York_C02_EMISSION, '5min'), 'New York')"
+              "target": "alias(movingAverage(Seattle_C02_EMISSION, '5min'), 'Seattle')"
             }
           ],
           "thresholds": [],
@@ -154,27 +146,19 @@
           "targets": [
             {
               "refId": "A",
-              "target": "alias(movingAverage(Paris_AVG_NOISE, '5min'), 'Paris')"
+              "target": "alias(movingAverage(St_Louis_AVG_NOISE, '5min'), 'St. Louis')"
             },
             {
               "refId": "D",
-              "target": "alias(movingAverage(London_AVG_NOISE, '5min'), 'London')"
+              "target": "alias(movingAverage(Bismarck_AVG_NOISE, '5min'), 'Bismarck')"
             },
             {
               "refId": "E",
-              "target": "alias(movingAverage(Frankfurt_AVG_NOISE, '5min'), 'Frankfurt')"
+              "target": "alias(movingAverage(Knoxville_AVG_NOISE, '5min'), 'Knoxville')"
             },
             {
               "refId": "B",
-              "target": "alias(movingAverage(Tokyo_AVG_NOISE, '5min'), 'Tokyo')"
-            },
-            {
-              "refId": "C",
-              "target": "alias(movingAverage(Atlanta_AVG_NOISE, '5min'), 'Atlanta')"
-            },
-            {
-              "refId": "F",
-              "target": "alias(movingAverage(New_York_AVG_NOISE, '5min'), 'New York')"
+              "target": "alias(movingAverage(Seattle_AVG_NOISE, '5min'), 'Seattle')"
             }
           ],
           "thresholds": [],
@@ -282,11 +266,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Frankfurt.ASCENDING"
+              "target": "St_Louis.ASCENDING"
             }
           ],
           "thresholds": "",
-          "title": "Frankfurt",
+          "title": "St. Louis",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -355,11 +339,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "London.ASCENDING"
+              "target": "Bismarck.ASCENDING"
             }
           ],
           "thresholds": "",
-          "title": "London",
+          "title": "Bismarck",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -428,11 +412,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Paris.ASCENDING"
+              "target": "Knoxville.ASCENDING"
             }
           ],
           "thresholds": "",
-          "title": "Paris",
+          "title": "Knoxville",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -501,157 +485,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Tokyo.ASCENDING"
+              "target": "Seattle.ASCENDING"
             }
           ],
           "thresholds": "",
-          "title": "Tokyo",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "total"
-        },
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": true,
-          "colors": [
-            "#299c46",
-            "rgba(237, 129, 40, 0.89)",
-            "#d44a3a"
-          ],
-          "datasource": null,
-          "format": "none",
-          "gauge": {
-            "maxValue": 100,
-            "minValue": 0,
-            "show": false,
-            "thresholdLabels": false,
-            "thresholdMarkers": true
-          },
-          "id": 10,
-          "interval": null,
-          "links": [],
-          "mappingType": 1,
-          "mappingTypes": [
-            {
-              "name": "value to text",
-              "value": 1
-            },
-            {
-              "name": "range to text",
-              "value": 2
-            }
-          ],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "Took off",
-          "prefixFontSize": "80%",
-          "rangeMaps": [
-            {
-              "from": "null",
-              "text": "N/A",
-              "to": "null"
-            }
-          ],
-          "span": 2,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
-          },
-          "tableColumn": "",
-          "targets": [
-            {
-              "refId": "A",
-              "target": "Atlanta.ASCENDING"
-            }
-          ],
-          "thresholds": "",
-          "title": "Atlanta",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "total"
-        },
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": true,
-          "colors": [
-            "#299c46",
-            "rgba(237, 129, 40, 0.89)",
-            "#d44a3a"
-          ],
-          "datasource": null,
-          "format": "none",
-          "gauge": {
-            "maxValue": 100,
-            "minValue": 0,
-            "show": false,
-            "thresholdLabels": false,
-            "thresholdMarkers": true
-          },
-          "id": 11,
-          "interval": null,
-          "links": [],
-          "mappingType": 1,
-          "mappingTypes": [
-            {
-              "name": "value to text",
-              "value": 1
-            },
-            {
-              "name": "range to text",
-              "value": 2
-            }
-          ],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "Took off",
-          "prefixFontSize": "80%",
-          "rangeMaps": [
-            {
-              "from": "null",
-              "text": "N/A",
-              "to": "null"
-            }
-          ],
-          "span": 2,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
-          },
-          "tableColumn": "",
-          "targets": [
-            {
-              "refId": "A",
-              "target": "New_York.ASCENDING"
-            }
-          ],
-          "thresholds": "",
-          "title": "New York",
+          "title": "Seattle",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -732,11 +570,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Paris.DESCENDING"
+              "target": "St_Louis.DESCENDING"
             }
           ],
           "thresholds": "",
-          "title": "Paris",
+          "title": "St. Louis",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -805,11 +643,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "London.DESCENDING"
+              "target": "Bismarck.DESCENDING"
             }
           ],
           "thresholds": "",
-          "title": "London",
+          "title": "Bismarck",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -878,11 +716,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Frankfurt.DESCENDING"
+              "target": "Knoxville.DESCENDING"
             }
           ],
           "thresholds": "",
-          "title": "Frankfurt",
+          "title": "Knoxville",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
@@ -951,157 +789,11 @@
           "targets": [
             {
               "refId": "A",
-              "target": "Tokyo.DESCENDING"
+              "target": "Seattle.DESCENDING"
             }
           ],
           "thresholds": "",
-          "title": "Tokyo",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "total"
-        },
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": true,
-          "colors": [
-            "#65c5db",
-            "rgb(68, 209, 22)",
-            "#d44a3a"
-          ],
-          "datasource": null,
-          "format": "none",
-          "gauge": {
-            "maxValue": 100,
-            "minValue": 0,
-            "show": false,
-            "thresholdLabels": false,
-            "thresholdMarkers": true
-          },
-          "id": 13,
-          "interval": null,
-          "links": [],
-          "mappingType": 1,
-          "mappingTypes": [
-            {
-              "name": "value to text",
-              "value": 1
-            },
-            {
-              "name": "range to text",
-              "value": 2
-            }
-          ],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "Landed",
-          "prefixFontSize": "80%",
-          "rangeMaps": [
-            {
-              "from": "null",
-              "text": "N/A",
-              "to": "null"
-            }
-          ],
-          "span": 2,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
-          },
-          "tableColumn": "",
-          "targets": [
-            {
-              "refId": "A",
-              "target": "Atlanta.DESCENDING"
-            }
-          ],
-          "thresholds": "",
-          "title": "Atlanta",
-          "type": "singlestat",
-          "valueFontSize": "80%",
-          "valueMaps": [
-            {
-              "op": "=",
-              "text": "N/A",
-              "value": "null"
-            }
-          ],
-          "valueName": "total"
-        },
-        {
-          "cacheTimeout": null,
-          "colorBackground": false,
-          "colorValue": true,
-          "colors": [
-            "#65c5db",
-            "rgb(68, 209, 22)",
-            "#d44a3a"
-          ],
-          "datasource": null,
-          "format": "none",
-          "gauge": {
-            "maxValue": 100,
-            "minValue": 0,
-            "show": false,
-            "thresholdLabels": false,
-            "thresholdMarkers": true
-          },
-          "id": 14,
-          "interval": null,
-          "links": [],
-          "mappingType": 1,
-          "mappingTypes": [
-            {
-              "name": "value to text",
-              "value": 1
-            },
-            {
-              "name": "range to text",
-              "value": 2
-            }
-          ],
-          "maxDataPoints": 100,
-          "nullPointMode": "connected",
-          "nullText": null,
-          "postfix": "",
-          "postfixFontSize": "50%",
-          "prefix": "Landed",
-          "prefixFontSize": "80%",
-          "rangeMaps": [
-            {
-              "from": "null",
-              "text": "N/A",
-              "to": "null"
-            }
-          ],
-          "span": 2,
-          "sparkline": {
-            "fillColor": "rgba(31, 118, 189, 0.18)",
-            "full": false,
-            "lineColor": "rgb(31, 120, 193)",
-            "show": false
-          },
-          "tableColumn": "",
-          "targets": [
-            {
-              "refId": "A",
-              "target": "New_York.DESCENDING"
-            }
-          ],
-          "thresholds": "",
-          "title": "New York",
+          "title": "Seattle",
           "type": "singlestat",
           "valueFontSize": "80%",
           "valueMaps": [
